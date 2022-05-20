@@ -1,0 +1,1 @@
+docker run --name rust-server -d -p 28015:28015 -p 28015:28015/udp -p 28016:28016 -p 8080:8080 -v /rust:/steamcmd/rust --env-file rust.env didstopia/rust-server
